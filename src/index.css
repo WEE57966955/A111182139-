@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Crimson Text", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(166, 75, 42, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(166, 75, 42, 0.4);
+}
